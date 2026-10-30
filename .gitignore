@@ -1,0 +1,108 @@
+# ── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ── Next.js ──────────────────────────────────────────────────────────────────
+.next/
+out/
+build/
+dist/
+
+# ── Environment & secrets ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+!.env*.example
+*.pem
+*.p12
+*.key
+*.crt
+secrets/
+credentials/
+
+# ── Logs & debug ─────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ── Testing & coverage ───────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+vitest.config.ts.timestamp-*
+
+# ── TypeScript ───────────────────────────────────────────────────────────────
+*.tsbuildinfo
+next-env.d.ts
+
+# ── Vercel / deploy ──────────────────────────────────────────────────────────
+.vercel
+.netlify
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Editors / IDE ────────────────────────────────────────────────────────────
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ── Cursor local ─────────────────────────────────────────────────────────────
+.cursor/
+!.cursor/rules/
+
+# ── Caches ───────────────────────────────────────────────────────────────────
+.cache/
+.turbo/
+.eslintcache
+.stylelintcache
+*.eslintcache
+.parcel-cache/
+.sass-cache/
+
+# ── Uploads / runtime data (local only) ──────────────────────────────────────
+uploads/
+tmp/
+temp/
+.temp/
+public/uploads/
+
+# ── Database / local dumps ───────────────────────────────────────────────────
+*.sqlite
+*.sqlite3
+*.db
+dump.rdb
+*.mongo
+mongo-dump/
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+*.local
+*.bak
+*.orig
+*.tmp
+.history/
+.vscode-test/
